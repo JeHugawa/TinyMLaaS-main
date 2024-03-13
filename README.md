@@ -55,7 +55,7 @@ network between all three components.
 2.  Run
 
 ``` bash
-docker compose up -f docker-compose-with-brdige.yml -d
+docker compose -f docker-compose-with-bridge.yml up -d
 ```
 
 Note that requires the [Sysbox runtime](https://github.com/nestybox/sysbox) to be installed and running, as the bridge uses this module.
